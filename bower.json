@@ -1,5 +1,5 @@
 {
-  "name": "lp",
+  "name": "puterakahfi landing page",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.3.0",
@@ -19,5 +19,25 @@
     "angular-mocks": "~1.3.0",
     "angular-scenario": "~1.3.0"
   },
-  "appPath": "app"
+  "appPath": "app",
+  "homepage": "https://github.com/puterakahfi/puterakahfi-lp",
+  "authors": [
+    "puterakahfi <puterakahfi@gmail.com>"
+  ],
+  "description": "personal landing page",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
