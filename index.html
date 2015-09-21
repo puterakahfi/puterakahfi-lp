@@ -36,8 +36,8 @@
 
     <body id="page-top">
 
-        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top bg-primary">
+            <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -46,24 +46,35 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Putera Kahfi</a>
+                    <a class="navbar-brand page-scroll" href="#page-top">Putera Kahfi <sup>.beta</sup></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="page-scroll" href="#awards">Awards</a>
+                            <a class="page-scroll" href="#awards"><i class="fa fa-star"></i> Awards</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#services">Skills</a>
+                            <a class="page-scroll" href="#skills"><i class="fa fa-bar-chart"></i> Skills</a>
                         </li>
 
                         <li>
-                            <a class="page-scroll" href="#portfolio">Portfolio</a>
+                            <a class="page-scroll" href="#portfolio"><i class="fa fa-image"></i> Portfolio</a>
+                        </li>
+
+
+                        <li>
+                            <a class="page-scroll" href="#experiences"> <i class="fa fa-anchor"></i>  Experiences</a>
+                        </li>
+
+
+
+                        <li>
+                            <a class="page-scroll" href="#projects">Projects</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
+                            <a class="page-scroll" href="#contact"><i class="fa fa-tasks"></i>  Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -73,50 +84,65 @@
         </nav>
 
         <header>
-            <div class="header-content">
+            <div class="header-content no-padding">
                 <div class="header-content-inner">
-                    <h1>PUTERA KAHFI</h1>
-                    <hr>
-                    <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                    <h4><b>[ WEB DEVELOPER - WEB DESIGNER - WEB TRAINER - GRAPHIC DESIGNER ]</b></h4>
+                    <h1 >PUTERA KAHFI</h1>
+                    <h5> <em>Sometimes you win, sometimes you learn</em></h5>
+                    <hr class="no-padding">
+
+                    <i class="fa fa-3x fa-github-square"></i>&nbsp;  
+                    <i class="fa fa-3x fa-facebook-square"></i>&nbsp;
+                    <i class="fa fa-3x fa-linkedin-square"></i>&nbsp;  
+            
+                    <br/> <br/>
+
+                    <a href="#about" class="btn btn-primary btn-md page-scroll"><i class="fa fa-download"></i> Download My CV</a>
+
                 </div>
             </div>
         </header>
 
-        <section class="" id="awards">
+
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2>Download This Landing Page, <b>FREE!</b></h2>
+
+                    <a href="#" class="btn btn-info btn-xl wow tada"><i class="fa fa-download"></i> Download Now!</a>
+                    <h5>Or you can contribute, <a href="#">fork here</a></h5>
+                </div>
+            </div>
+        </aside>
+
+        <section class="bg-gold" id="awards">
             <div class="container">
                 <div class="row">
 
                     <div class="col-lg-12  text-center">
-                        <h2 class="section-heading">Awards</h2>
+                        <h2 class="section-heading"><b>AWARDS</b></h2>
+                        <h5> To generate awards you can visit <a href="#h"><b>http://www.laurelleavesawardmaker.com </b></a></h5>
                         <hr class="light">
                         <div class="row">
                             <div class=" col-lg-3">
-                                <div class="panel">
-                                    <img src="img/award.png" />
-                                </div>
+
+                                <img src="img/award.png" />
 
                             </div>
 
                             <div class=" col-lg-3">
-                                <div class="panel">
-                                    <img src="img/award.png" />
-                                </div>
+
+                                <img src="img/award.png" />
 
                             </div>
-
                             <div class=" col-lg-3">
-                                <div class="panel">
-                                    <img src="img/award.png" />
-                                </div>
+
+                                <img src="img/award.png" />
 
                             </div>
-                            
-                            
                             <div class=" col-lg-3">
-                                <div class="panel">
-                                    <img src="img/award.png" />
-                                </div>
+
+                                <img src="img/award.png" />
 
                             </div>
                         </div>
@@ -125,11 +151,11 @@
             </div>
         </section>
 
-        <section  class="bg-warning" id="services">
+        <section  class="bg-success" id="skills">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Skills</h2>
+                        <h2 class="section-heading">SKILLS</h2>
                         <hr class="primary">
                     </div>
                 </div>
@@ -139,36 +165,47 @@
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
                             <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                            <h3>Sturdy Templates</h3>
+                            <h3>Web Development</h3>
                             <p class="text-muted">Our templates are updated regularly so they don't break.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                            <h3>Ready to Ship</h3>
+                            <i class="fa fa-4x fa-wordpress wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                            <h3>Wordpress</h3>
                             <p class="text-muted">You can use this theme as is, or you can make changes!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                            <h3>Up to Date</h3>
+                            <i class="fa fa-4x fa-html5 wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                            <h3>Front End Devs</h3>
                             <p class="text-muted">We update dependencies to keep things fresh.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                            <h3>Made with Love</h3>
+                            <i class="fa fa-4x fa-image bounceIn text-primary" data-wow-delay=".3s"></i>
+                            <h3>Php Framework</h3>
                             <p class="text-muted">You have to make your websites with love these days!</p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <section class="no-padding" id="portfolio">
+        <section class="bg-dark" id="portfolio">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">PORTFOLIO</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+
             <div class="container-fluid">
                 <div class="row no-gutter">
                     <div class="col-lg-4 col-sm-6">
@@ -265,14 +302,53 @@
             </div>
         </section>
 
-        <aside class="bg-dark">
-            <div class="container text-center">
-                <div class="call-to-action">
-                    <h2>Free Download at Start Bootstrap!</h2>
-                    <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+
+
+        <section  class="bg-success" id="experiences">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">EXPERIENCES</h2>
+                        <hr class="primary">
+                    </div>
                 </div>
             </div>
-        </aside>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                            <h3>Web Development</h3>
+                            <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-wordpress wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                            <h3>Wordpress</h3>
+                            <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-html5 wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                            <h3>Front End Devs</h3>
+                            <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-image bounceIn text-primary" data-wow-delay=".3s"></i>
+                            <h3>Php Framework</h3>
+                            <p class="text-muted">You have to make your websites with love these days!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
 
         <section id="contact">
             <div class="container">

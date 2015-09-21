@@ -60,12 +60,16 @@ p {
     background-color: #222;
 }
 
+.bg-gold{
+    background-color: #FCE340;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
 
 section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 aside {
